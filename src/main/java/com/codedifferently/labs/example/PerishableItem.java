@@ -6,6 +6,7 @@ public class PerishableItem implements Billable {
     private double freshnessPercentage;
 
     public PerishableItem(String productName, double basePrice, double freshnessPercentage) {
+        //Constructor for the Perishable item
         this.productName = productName;
         this.basePrice = basePrice;
         this.freshnessPercentage = freshnessPercentage;

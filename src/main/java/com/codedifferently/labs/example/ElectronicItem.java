@@ -5,6 +5,7 @@ public class ElectronicItem implements Billable {
     private double basePrice;
 
     public ElectronicItem(String productName, double basePrice) {
+        //Constructor for the electronic item
         this.productName = productName;
         this.basePrice = basePrice;
     }
@@ -30,7 +31,7 @@ public class ElectronicItem implements Billable {
     }
 
     @Override
-    public double getTax() {
+    public double getTax()   {
         return basePrice * 0.1;  // 10% electronics tax.
     }
 }

@@ -1,4 +1,11 @@
 package com.codedifferently.labs.chapter8.animals;
 
-public class Animal {
+public interface Animal {
+    String getName();
+    String eat();
+
+    Boolean sleep();
+
+    String makeSound();
+
 }

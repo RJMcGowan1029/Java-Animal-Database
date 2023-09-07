@@ -9,6 +9,7 @@ public class PrintedItem implements Billable {
         this.productName = productName;
         this.basePrice = basePrice;
         this.isPromotion = isPromotion;
+        //Constructor for the printed item
     }
 
     @Override
